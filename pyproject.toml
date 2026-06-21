@@ -1,0 +1,10 @@
+[project]
+name = "telegram-gpx-transformer"
+version = "0.1.0"
+description = "Telegram bot that smooths GPS gaps in Samsung Health GPX files"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gpx>=2026.3.0",
+    "python-telegram-bot>=21.0",
+]
